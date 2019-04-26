@@ -1,0 +1,1376 @@
+
+@font-face {
+  font-family: 'indielabs Frutiger regular';
+  src:url('../fonts/indielabs Frutiger regular.ttf') format('truetype');   
+}
+
+body
+{
+/*    #97C75A*/
+font-family:"indielabs Frutiger regular";
+
+}
+
+/******************************start nav *************************/
+.nav-tsgeel 
+{
+    padding-right:15px;
+}
+.nav-tsgeel img
+{
+    width: 46%;
+    padding-top: 15px;
+}
+
+.nav-tsgeel  span
+{
+    color: #97C75A;
+}
+
+.navbar-brand>img
+{
+    width: 50%;
+    margin: auto;
+}
+
+.nav>li>a>img {
+    max-width: none;
+    width: 50%;
+
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: transparent;
+    padding-top: 5px;
+    border-top: 5px solid #97C75A;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+    color: black;
+    font-size: 14px;
+    transition: all ease-in-out 0.2s;
+    font-weight: bold;
+     border-bottom: 4px solid transparent;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    border-bottom: 4px solid #97C75A;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    padding-top: 12px;
+}
+
+/******************************start nav *************************/
+
+
+
+/******************************start slider *************************/
+
+.inr-slid
+{
+   margin-bottom: 50px;
+    color: #fff;
+}
+
+.inr-slid h1
+{
+    letter-spacing: 2px; 
+    font-weight:bold;
+    font-size: 40px;
+    margin: 10px;
+}
+.inr-slid p
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #eee;
+    word-spacing: 3px;
+}
+.inr-slid button
+{
+    margin-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-image: url(../img/Btn.png);
+    background-size: cover;
+}
+.inr-slid button:hover
+{
+    color: #fff;
+}
+.btn
+{
+    border-radius: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #97C75A; 
+    font-size: 16px;
+}
+
+.shm
+{
+    background-color: #fff;
+    opacity: 1;
+}
+
+.carousel-control
+{
+    
+    color: black;
+    opacity: 1;
+    padding: 10px;
+}
+.carousel-control:hover{
+    color: black;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-arrow-left
+{
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50px;
+}
+
+.carousel-control .glyphicon-arrow-left, .carousel-control .glyphicon-arrow-left, .carousel-control .icon-next, .carousel-control .icon-prev
+{
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
+
+
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-arrow-right
+{
+    right:0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50px;
+}
+
+.carousel-control .glyphicon-arrow-right, .carousel-control .glyphicon-arrow-right, .carousel-control .icon-next, .carousel-control .icon-prev
+{
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
+
+/******************************end slider *************************/
+
+/******************************start khdmat *************************/
+.khdma
+{
+    background-color: black;
+    color: #eee;
+}
+
+.prag-khdma p
+{
+    font-size: 15px;
+}
+
+.img-khdma 
+{
+    float: right;
+}
+
+.img-khdma img
+{
+    width: 70%;
+    margin-top: -10px;
+}
+/******************************end khdmat *************************/
+
+/******************************strat pics *************************/
+.pics
+{
+    margin-top: 50px;
+    color: #eee;
+}
+
+.outr-pic
+{
+    position: relative;
+}
+.img-pics
+{
+    float: right;
+    position: absolute;
+    top: 43px;
+    right: 58px;
+}
+
+.prag-pics
+{
+    position: absolute;
+    top: 10px;
+    right: 145px;
+}
+
+.img-pics img
+{
+    width: 55%;
+}
+
+.more
+{
+    width: 25%;
+}
+
+.prag-pics p
+{
+    font-size: 17px;
+}
+
+.prag-pics h2
+{
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.khza2en
+{
+    margin: auto;
+/*    margin-top: 10px;*/
+}
+/******************************end pics *************************/
+
+/******************************start slider *************************/
+
+.testslider
+{
+   
+    margin-top:50px;
+}
+
+.testslider h2
+{
+    margin-bottom: 30px;
+    
+}
+.slidertestslick
+{
+    direction: ltr;
+}
+
+.bggreentest
+{
+    width: 97%;
+    margin: auto;
+   
+    
+}
+.a 
+{
+    width: 88%;
+    margin: auto;
+    border: 2px solid #eee;
+    padding: 20px;
+    padding-bottom: 88px;
+    padding-top: 50px;
+}
+.b 
+{
+    width: 88%;
+    margin: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    border-image: initial;
+    padding: 65px 20px 108px;
+}
+
+.c {
+    width: 89%;
+    margin: auto;
+    border: 2px solid #eee;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-bottom: 77px;
+    padding-top: 50px;
+}
+
+.d
+{ 
+    width: 89%;
+    margin: auto;
+    border: 2px solid #eee;
+    padding: 37px;
+    padding-bottom: 80px;
+    padding-top: 55px;
+
+}
+
+.slick-slide slick-active
+{
+    width: 250px;
+    border: 1px solid red;
+}
+
+.bxtest
+{
+    position: relative;
+}
+
+.klam
+{
+    position: absolute;
+    right: 54px;
+    bottom: 8px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.disc
+{
+    position: absolute;
+    left: 55px;
+    bottom: 16px;
+    font-weight: 600;
+    color: #999; 
+}
+.greenklam
+{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    text-align: right;
+}
+.greenklam p
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.greenklam span
+{
+    font-size:48px;
+    color: #fff;
+}
+
+.slick-next
+{
+    right: -12px;
+}
+
+.posttest
+{
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    padding-top: 2px;
+    font-weight: 900;
+    padding-bottom: 0;
+    padding-right: 20px;
+    font-size: 16px;
+    padding-left: 20px;
+    background-image: url(../img/categorybg.png);
+    background-size: cover;
+    color: #fff;
+    height: 31px;
+    line-height: 30px;
+}
+   
+.posttest2
+{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-weight: 900;
+    padding-right: 30px;
+    font-size: 16px;
+    padding-left: 30px;
+    background-image: url(../img/categorybg.png);
+    background-size: cover;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    
+}
+.slick-prev
+{
+    left: -34px;
+}
+
+.slick-prev:before, .slick-next:before 
+{
+    font-family: auto;
+    background: black;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1;
+    color: white;
+}
+/******************************end slider *************************/
+
+
+/******************************start barkeh *************************/
+
+.barkeh
+{
+    margin-top: 50px;
+    font-weight: 600;
+}
+.barkeh h2
+{
+    font-weight: bold;
+    
+}
+
+.box-barkeh
+{
+    border: 2px solid #eee;
+    height: 350px;
+    margin: auto;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 90%;
+    margin: auto;
+    transition: all ease-in-out 0.5s;
+    
+
+}
+
+.box-barkeh:hover
+{
+     border: 3px solid #72c18e;
+     transition: all ease-in-out 0.5s;
+}
+
+.rt
+{
+
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color:#444;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.lt
+{
+
+    text-align:left;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    color: #999;
+    letter-spacing: 1px;
+    
+}
+
+.postrbarkeh
+{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-image: url(../img/categorybg.png);
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom:0;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: right;
+    height: 30px;
+    line-height: 26px;
+}
+
+.barkehimg
+{
+    width: 90%;
+    margin: auto;
+    height: 200px;
+}
+/******************************end barkeh *************************/
+
+/******************************start Khaza2en*************************/
+
+.barkehimg-khza2en
+{
+    width: 65%;
+    margin: auto;
+    height: 200px;
+}
+/******************************end Khaza2en*************************/
+
+
+/******************************start montgat*************************/
+.montgat
+{
+    margin-top: 50px;
+}
+.montgat h2
+{
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.t5feedklam
+{
+    position: absolute;
+    top: 54px;
+    right: 50px;
+}
+.t5feedklam p
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.t5feedklam span
+{
+    color:#74C18B;
+    font-size: 50px;
+    font-weight: bold;
+}
+.pict5fed
+{
+    height: 210px;
+}
+
+.widthsgada
+{
+    width: 90%;
+}
+/******************************end montgat*************************/
+
+
+/******************************start nobles*************************/
+.nobles
+{
+    margin-top: 60px;
+    position: relative;
+}
+.sprate
+{
+    width: 10%;
+    margin: auto;
+}
+.nobles h2
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.nobles p
+{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.picblat
+{
+/*    width: 75%;*/
+    width: 80%;
+    margin: auto;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.picblat:hover
+{
+    border: 3px solid #eee;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.mainpic
+{
+    width: 95%;
+    margin: auto;
+}
+/*
+.inrmainpic
+{
+    position: absolute;
+    left: 180px;
+    top: 350px;
+    width: 175px;
+    height: 360px;
+    margin: auto;
+    background-color: #81C477;
+    padding: 10px;
+    z-index: 9999;
+}
+*/
+
+.inrmainpic {
+    position: absolute;
+    left: 180px;
+    top: 315px;
+    width: 200px;
+    height: 420px;
+    margin: auto;
+    background-color: #81C477;
+    padding: 10px;
+    z-index: 9999;
+}
+.brdr
+{
+    border: 2px solid #eee;
+    padding: 5px;
+    padding-top: 10px;
+}
+.moreclas
+{
+    width: 20%;
+    margin: auto;
+}
+
+.play
+{
+    position: absolute;
+    top: 340px;
+    left: 630px;
+    width: 6%;
+}
+/******************************end nobles*************************/
+
+/******************************start modern*************************/
+
+
+.modern
+{
+    margin-top: 20px;
+}
+.modern h2, .modern p
+{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.modern button
+{
+    background-image: url(../img/Btn.png);
+    background-size: cover;
+    color: #fff;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+/******************************end modern*************************/
+
+
+.lastwr2
+{
+    padding: 15px;
+}
+
+/******************************start aneek*************************/
+.aneek
+{
+    margin-top: 50px;
+}
+
+.anekpic
+{
+    width: 90%;
+    margin: auto;
+}
+
+/******************************end aneek*************************/
+
+/******************************start 5sm*************************/
+.khsm
+{
+    
+    margin: auto;
+    margin-top: 50px;
+}
+.khsmbox
+{
+    position: relative;
+}
+.khsmklam
+{
+    position: absolute;
+    top: 50px;
+    right: 26px;
+}
+
+.khsmklam h4
+{
+    
+    font-size: 18px;
+    color: black
+}
+.khsmklam span
+{
+ color: #74C18B; 
+}
+.khsmklam p
+{
+   letter-spacing: normal; 
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+}
+.rkmkhsm
+{
+    font-size: 45px;
+}
+
+/******************************end 5sm*************************/
+
+
+/******************************start knba*************************/
+.knba
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bk
+{
+    background-image: url(../img/offerbbg.png);
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+}
+.klamknba
+{
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.klamknba h3
+{
+    background-image: url(../img/Btn.png);
+    background-size: cover;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 65%;
+    text-align: center;
+    
+}
+
+.klamknba h2
+{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: black;
+}
+/******************************end knba*************************/
+
+/******************************start esbo3*************************/
+.esbo3
+{
+    width: 90%;
+}
+
+.klamesbo3
+{
+    padding-right: 10px;
+    padding-top: 50px;
+}
+.klamesbo3  h3
+{
+    background-image: url(../img/Btn.png);
+    background-size: cover;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 80%;
+    text-align: center;
+    
+}
+
+.klamesbo3 h2
+{
+    font-size: 33px;
+    letter-spacing: 1px;
+    color: black;
+}
+.ltesbo3
+{
+    float: left;
+    margin-left: 100px;
+    color: #888;
+    
+}
+
+.rtesbo3
+{
+    font-weight: bold;
+    float: right;
+}
+
+.greenimgesbo3
+{
+    position: relative;
+}
+.klamgreen
+{
+    position: absolute;
+    top: 100px;
+    right: 225px;
+}
+.klamgreen p
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.klamgreen span
+{
+    color:#fff;
+    font-size: 60px;
+    text-align: center;
+}
+
+.clear
+{
+    clear: both;
+}
+/******************************end esbo3*************************/
+
+/******************************start eshtrak*************************/
+.eshtrek
+{
+    background-image:url(../img/pic.png);
+    background-size: cover;
+    padding: 20px;
+}
+
+.eshtrek h3
+{
+    color: #eee;
+}
+.eshtrek p
+{
+    color: #999;
+}
+.frmtext
+{
+    width: 50%;
+    display: inline-block;
+    background-color: #392F2E;
+    font-size: 17px;
+   
+}
+.frmsub
+{
+    width: 20%;
+    display: inline-block;
+    font-size: 18px;
+    background-color: black;
+    color: #eee;
+    letter-spacing: 1px;
+}
+.form-control
+{
+    height: 42px;
+    border-color: transparent;
+    border-radius: 0;
+}
+
+/******************************end eshtrak*************************/
+
+/******************************start footer*************************/
+.footer
+{
+    background-color: #241E1E;
+    color: #999;
+    padding: 40px;
+}
+.footer h3
+{
+    color: #eee;
+}
+
+.footer .fa
+{
+    padding-left: 20px;
+    color: #eee;
+}
+/******************************end footer*************************/
+
+/******************************start copy*************************/
+.copy
+{
+    background-color:#221C1C;
+    color: #999;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+/******************************end copy*************************/
+
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$ start media $$$$$$$$$$$$$$$$$*/
+
+/* Portrait ipad*/
+@media (max-width: 1200px) 
+{
+.nav-tsgeel img
+    {
+        display: none;
+    }
+    .img-pics img
+    {
+        width: 50%;
+    }
+    .prag-pics h2
+    {
+       font-size: 25px; 
+    }
+    .prag-pics
+    {
+        right: 135px;
+    }
+    .img-pics
+    {
+        right: 50px;
+    }
+    .klam
+    {
+        font-size: 14px;
+    }
+    
+    .disc 
+    {
+        left: 38px;
+    }
+    .greenklam 
+    {
+    top: 90px;
+    left: 78px;
+   }
+    .lt
+    {
+        display: none;
+    }
+    .inrmainpic 
+    {
+    left: 92px;
+    top: 255px;
+    }
+    
+    .inrmainpic 
+    {
+    width: 170px;
+    height: 370px;
+    }
+    .play
+    {
+    top: 310px;
+    left: 490px;
+    }
+    .box-barkeh
+    {
+        margin-bottom: 20px;
+/*        width: 100%;*/
+    }
+    .klamknba h3
+    {
+        width: 100%;
+    }
+    .klamknba h2
+    {
+        font-size: 29px;
+    }
+    .klamgreen 
+    {
+    top: 62px;
+    right: 167px;
+    }
+    .klamesbo3 h2
+    {
+        font-size: 27px;
+    }
+    .ltesbo3 
+    {
+     float: left;
+     margin-left:0; 
+    }
+     .prag-khdma p
+    {
+        font-size: 14px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    .nav-tsgeel
+    {
+        padding-right: 32%;
+    }
+    .navbar
+    {
+        margin-bottom: 0;
+    }
+    .inr-slid
+    {
+        margin-bottom: 0;
+    }
+    .prag-khdma h3
+    {
+        
+        font-size:17px;
+    }
+    .prag-khdma p
+    {
+        font-size: 14px;
+    }
+    .img-pics img 
+    {
+        width: 35%;
+    }
+    .prag-pics h2
+    {
+        font-size: 20px;
+    }
+    .prag-pics p
+    {
+        font-size: 12px;
+    }
+    .img-pics
+    {
+        right: 34px;
+    }
+    .prag-pics
+    {
+        right: 80px;
+        top: 2px;
+    }
+    .t5feedklam span
+    {
+        font-size: 43px;
+    }
+    .t5feedklam p
+    {
+        font-size: 16px;
+    }
+    .t5feedklam 
+    {
+        right: 40px;
+    }
+    .rkmkhsm 
+    {
+        font-size: 30px;
+    }
+    .khsmklam 
+    {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    }
+    .klamknba h2 
+    {
+     font-size: 19px;       
+    }
+    .klamesbo3 h2
+    {
+        font-size: 25px;
+    }
+    .klamgreen 
+    {
+        right: 150px;
+    } 
+    .bk
+    {
+        width: 100%;
+    }
+    .anekpic
+    {
+     width: 100%;   
+    }
+    .esbo3
+    {
+        width: 100%;
+    }
+    .eshtrek h3
+    {
+        font-size: 17px;
+    }
+     .eshtrek p
+    {
+        font-size: 10px
+    }
+ 
+ 
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px)
+{
+   .navbar-default .navbar-collapse, .navbar-default .navbar-form
+    {
+        border: 1px solid transparent;
+    }
+    .testslider 
+    {
+    width: 90%;
+    margin: auto;
+   }
+   .pics 
+    {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    }
+    .outr-pic 
+    {
+    margin-bottom: 20px;
+    }
+    .inr-slid
+    {
+        margin-bottom: -25px;
+    }
+    .inr-slid p
+    {
+        display: none;
+    }
+    .inr-slid h1 
+     {
+     letter-spacing: 1px; 
+     font-size: 32px;
+     }
+    .inr-slid button 
+    {
+    margin-top: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+    .disc
+    {
+        margin-left: 50px;
+    }
+    .box-barkeh
+    {
+        padding-left: 0;
+        padding-right: 0;
+          
+    }
+    .pict5fed
+    {
+        margin-bottom: 20px;
+    }
+    .sprate 
+    {
+        width: 25%;
+        margin: auto;
+    }
+    .inrmainpic 
+    {
+        width: 90px;
+        height: 198px;
+    }
+    .inrmainpic 
+    {
+    left: 30px;
+    top: 167px;
+    }
+    .anekpic
+    {
+        width: 100%;
+    }
+    .modern h2
+    {
+        font-size: 25px;
+    }
+    
+    .klamknba
+    {
+        padding-right: 0;
+    }
+    .klamgreen 
+    {
+    top: 40px;
+    right: 130px;
+    }
+    .ksmmiddl
+    {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    }
+    .khsmklam 
+    {
+    top: 30px;
+    right: 55px;
+    text-align: center;
+    }
+    .hightkhsm1
+    {
+        width: 90%;
+        margin: auto;
+    }
+    .khsmlast
+    {
+        width: 90%;
+        margin: auto;
+        height: 300px;
+    }
+    .esbo3img
+    {
+       width: 50%;
+        margin: auto;
+    }
+  
+   
+    .footer
+    {
+        text-align: right;
+    }
+    
+   .img-khdma
+    {
+    float: none; 
+    width: 21%;
+    margin: auto;
+    }
+    .khdma
+    {
+        text-align: center;
+        padding: 10px;
+    }
+    .img-khdma img
+    {
+        margin-top: 5px;
+        margin: auto;
+    }
+    .prag-khdma h3
+    {
+        font-size: 23px;
+        
+    }
+    .slick-next
+    {
+        right: 0;
+    }
+    .slick-prev
+    {
+        left: -28px;
+    }
+    .barkeh h2
+    {
+        text-align: center;
+    }
+    .barkeh
+    {
+        margin-top: 30px;
+    }
+    .inrmainpic 
+    {
+   
+    width: 100px;
+    height: 220px;
+    margin: auto;
+    background-color: #81C477;
+    padding: 10px;
+    z-index: 9999;
+    transform: rotate(90deg);
+    margin-left: 65px;
+    margin-top: 25px;
+    }
+    .modernklam
+    {
+        text-align: center;
+        margin-top: 45px;
+    }
+    .modernbtn
+    {
+        margin: auto;
+        text-align: center;
+    }
+      .bk
+    {
+        width: 100%;
+        margin: auto;
+        background-size: contain;
+    }
+     .klamknba h3
+    {
+        width: 50%;
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .klamknba h2 
+    {
+     text-align: right; 
+     font-size: 25px;
+     padding-top: 27px;
+     color: #333;
+     padding-left: 5px;
+     padding-right: 5px;
+    }
+    .esbo3
+    {
+        margin: auto;
+    }
+    .klamesbo3 h3 
+    {
+
+    height: 33px;
+    line-height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+        font-size: 20px;
+    text-align: center;
+    margin: auto;
+    }
+    .klamesbo3 h2
+    {
+        text-align: center;
+    }
+    
+    .eshtrek
+    {
+        text-align: center;
+    }
+       .eshtrek h3
+    {
+        font-size: 20px;
+    }
+     .eshtrek p
+    {
+        font-size: 12px
+    }
+    .nobles p
+    {
+        font-size: 14px;
+    }
+  
+}
+
+
+   
+
+
+    
+    
+
+
